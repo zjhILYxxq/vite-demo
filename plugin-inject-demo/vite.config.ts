@@ -8,4 +8,10 @@ export default defineConfig({
     react(),
     customePlugin
   ],
+  server: {
+    open: true
+  },
+  optimizeDeps: {
+    force: true
+  }
 })

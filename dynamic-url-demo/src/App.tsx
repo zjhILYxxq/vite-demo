@@ -1,9 +1,7 @@
 import React, { Suspense } from 'react'
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import { Page1, Page2, Page3 } from './routers';
-import { throttle } from 'lodash-es';
 function App() {
-  console.log(throttle);
   return (
     <div className="App">
       <Router>
