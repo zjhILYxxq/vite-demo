@@ -10,6 +10,7 @@ export default {
     PkgConfig()
   ],
   server: {
-    force: true
+    force: true,
+    open: true
   }
 }
